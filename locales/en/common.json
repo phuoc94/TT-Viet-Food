@@ -1,5 +1,24 @@
 {
     "home": "home",
     "menu": "menu",
-    "contact": "contact us"
+    "contact": "Contact us",
+    "contactus": "Contact us",
+    "homeHeader": "Authentic Vietnamese food",
+    "name": "Name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Your message",
+    "submit": "submit",
+    "openingHours": "Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+
+
+
 }

@@ -1,5 +1,24 @@
 {
     "home": "etusivu",
     "menu": "menu",
-    "contact": "yhteystiedot"
+    "contact": "yhteystiedot",
+    "contactus": "Ota yhteyttä",
+    "homeHeader": "Aitoa vietnamilaista ruokaa",
+    "name": "Nimi",
+    "email": "Sähköpostiosoite",
+    "subject": "Aihe",
+    "message": "Viestisi",
+    "submit": "Lähetä",
+    "openingHours": "Aukioloajat",
+    "monday": "Maanantai",
+    "tuesday": "Tiistai",
+    "wednesday": "Keskiviikko",
+    "thursday": "Torstai",
+    "friday": "Perjantai",
+    "saturday": "Lauantai",
+    "sunday": "Sunnuntai",
+    "closed": "Suljettu"
+
+
+
 }

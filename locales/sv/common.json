@@ -1,5 +1,24 @@
 {
     "home": "framsida",
-    "menu": "menu",
-    "contact": "Kontaktinformation"
+    "menu": "meny",
+    "contact": "Kontaktinformation",
+    "contactus": "Lontakta oss",
+    "homeHeader": "Autentisk vietnamesisk mat",
+    "name": "Namn",
+    "email": "E-postadress",
+    "subject": "Ämne",
+    "message": "Ditt meddelande",
+    "submit": "Skicka",
+    "openingHours": "Öppettider",
+    "monday": "Måndag",
+    "tuesday": "Tisdag",
+    "wednesday": "Onsdag",
+    "thursday": "Torsdag",
+    "friday": "Fredag",
+    "saturday": "Lördag",
+    "sunday": "Söndag",
+    "closed": "Stängd"
+
+
+
 }

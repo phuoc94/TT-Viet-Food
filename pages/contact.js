@@ -1,9 +1,10 @@
 import Layout from '../components/layout'
+import Contact from '../components/contact'
 
 const about = () => {
     return (
         <Layout>
-            <h1>contact Page</h1>
+            <Contact/>
         </Layout>
     )
 }
