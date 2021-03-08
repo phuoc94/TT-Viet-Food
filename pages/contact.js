@@ -1,11 +1,11 @@
 import Layout from '../components/layout'
 
-const menu = () => {
+const about = () => {
     return (
         <Layout>
-            <h1>menu page</h1>
+            <h1>contact Page</h1>
         </Layout>
     )
 }
 
-export default menu
+export default about

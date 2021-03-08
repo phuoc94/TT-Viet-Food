@@ -1,16 +1,17 @@
-import Head from 'next/head'
+import { useRouter } from 'next/router'
+import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>T&T Viet Food</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <h1>home page</h1>
-      
-    </div>
+  const router = useRouter()
+
+  const greeting = router.locale
+
+
+  return (
+      <Layout>
+        <h1>home page</h1>
+      </Layout>
   )
 }
