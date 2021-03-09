@@ -1,0 +1,121 @@
+{
+    "Appetizer": [
+        {
+            "name": "Gluteeniton kevätkääryleet",
+            "description": "Lasinuudeli, Porkkana, Keräkaali, Sipuli, Riisipaperi",
+            "price": [
+                {
+                    "name": "Kana",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "name": "Kasvis",
+                    "price": 10,
+                    "piece": 4
+                }
+            ]
+        },
+        {
+            "name": "Katkarapu kääryleet",
+            "description": "Katkarapu, Vehnä taikinaa",
+            "price": [
+                {
+                    "price": 6,
+                    "piece": 5
+                }
+            ]
+        },
+        {
+            "name": "Pieni Gluteeniton kevätkääryleet",
+            "description": "Katkarapu, Porkkana, Riisipaperi",
+            "price": [
+                {
+                    "price": 6,
+                    "piece": 15
+                }
+            ]
+        },
+        {
+            "name": "Wonton keitto",
+            "description": "Katkarapu, Possu, Kanan liemi, Korianteri, Vehnä taikinaa",
+            "price": [
+                {
+                    "price": 5,
+                    "piece": 6
+                }
+            ]
+        }
+
+    ],
+
+    "main": [
+        {
+            "id": 1,
+            "name": "Paistettu inkiväärillä",
+            "description": "Inkivääri, Kukkakaali, Parsakaali, Porkkana, Kesäkurpitsa",
+            "price": [
+                {
+                    "name": "Possu",
+                    "price": 11.9
+                },
+                {
+                    "name": "Kana",
+                    "price": 11.9
+                },
+                {
+                    "name": "Tofu",
+                    "price": 11.9
+                },
+                {
+                    "name": "Nauta",
+                    "price": 13.9
+                },
+                {
+                    "name": "Jattikatkarapu",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Hapanimelä kastike",
+            "description": "Paprika, Sipuli, Ananas, Inkivääri, (Vehnäjauho)",
+            "price": [
+                {
+                    "name": "Possu",
+                    "price": 12.9
+                },
+                {
+                    "name": "Kana",
+                    "price": 12.9
+                },
+                {
+                    "name": "Tofu",
+                    "price": 12.9
+                },
+                {
+                    "name": "Nauta",
+                    "price": 14.9
+                },
+                {
+                    "name": "Jattikatkarapu",
+                    "price": 17.9
+                }
+            ]
+        }
+    ],
+
+    "drinks":[
+        {
+            "name": "Coca-Cola",
+            "price": 3,
+            "size": "0,5"
+        },
+        {
+            "name": "Battery",
+            "price": 3.9,
+            "size": "0,33"
+        }
+    ]
+}
