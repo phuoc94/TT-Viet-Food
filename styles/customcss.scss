@@ -20,11 +20,18 @@
     .headerText{
         color: red;
         font-weight: 700;
-        font-size: 4.5rem;
+        font-size: calc(10px + 3.5vw);
         width: 50%;
         text-align: center;
         margin-top: 5%;
     }
+}
+
+.h1-responsive{
+    font-size: calc(24px + 1.5vw);
+}
+.h2-responsive{
+    font-size: calc(12px + 0.5vw);
 }
 
 .red{
@@ -41,4 +48,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+}
+.pimage {
+    min-width: 300px;
+}
+.dishimage{
+    max-width: 300px;
+    max-height: 300px;
+}
+.dimage {
+    max-height: 450px;
+}
+.price{
+    font-weight: bold;
+    margin-bottom: 0;
 }

@@ -1,106 +1,443 @@
 {
     "Appetizer": [
         {
-            "name": "Gluteeniton kevätkääryleet",
-            "description": "Lasinuudeli, Porkkana, Keräkaali, Sipuli, Riisipaperi",
+            "name": "chagioglu",
+            "description": "sis-chagioglu",
+            "src": "/menuImg/chagioglu.jpg",
             "price": [
                 {
-                    "name": "Kana",
+                    "id": 1,
+                    "name": "chicken",
                     "price": 10,
                     "piece": 4
                 },
                 {
-                    "name": "Kasvis",
+                    "id": 2,
+                    "name": "vege",
                     "price": 10,
                     "piece": 4
                 }
             ]
         },
         {
-            "name": "Katkarapu kääryleet",
-            "description": "Katkarapu, Vehnä taikinaa",
+            "name": "chagioglupieni",
+            "description": "chagioglupieni",
+            "src": "/menuImg/chagioglupieni.jpg",
             "price": [
                 {
-                    "price": 6,
-                    "piece": 5
-                }
-            ]
-        },
-        {
-            "name": "Pieni Gluteeniton kevätkääryleet",
-            "description": "Katkarapu, Porkkana, Riisipaperi",
-            "price": [
-                {
+                    "id": 1,
                     "price": 6,
                     "piece": 15
                 }
             ]
         },
         {
-            "name": "Wonton keitto",
-            "description": "Katkarapu, Possu, Kanan liemi, Korianteri, Vehnä taikinaa",
+            "name": "tomchien",
+            "description": "sis-tomchien",
+            "src": "/menuImg/tomchien.jpg",
+            "price": [
+                {   
+                    "id": 1,
+                    "price": 6,
+                    "piece": 5
+                }
+            ]
+        },
+        {
+            "name": "wonton",
+            "description": "sis-wonton",
+            "src": "/menuImg/wonton.jpg",
             "price": [
                 {
+                    "id": 1,
                     "price": 5,
                     "piece": 6
                 }
             ]
+        },
+        {
+            "name": "friedwonton",
+            "description": "sis-friedwonton",
+            "src": "/menuImg/friedwonton.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 5,
+                    "piece": 6
+                },
+                {
+                    "id": 2,
+                    "name": "vege",
+                    "price": 5,
+                    "piece": 6
+                }
+            ]
+        },
+        {
+            "name": "banhbao",
+            "description": "sis-banhbao",
+            "src": "/menuImg/banhbao.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 5
+                }
+            ]
+        },
+        {
+            "name": "dimsum",
+            "description": "sis-dimsum",
+            "src": "/menuImg/dimsum.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 12,
+                    "piece": 10
+                }
+            ]
+        },
+        {
+            "name": "chagio",
+            "description": "sis-chagio",
+            "src": "/menuImg/chagio.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "chicken",
+                    "price": 10,
+                    "piece": 5
+                },
+                {
+                    "id": 2,
+                    "name": "vege",
+                    "price": 10,
+                    "piece": 5
+                }
+            ]
+        },
+        {
+            "name": "goicuon",
+            "description": "sis-goicuon",
+            "src": "/menuImg/goicuon.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 10,
+                    "piece": 4
+                }
+            ]
+        },
+        {
+            "name": "goibo",
+            "description": "sis-goibo",
+            "src": "/menuImg/goibo.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 12
+                }
+            ]
         }
-
     ],
 
     "main": [
         {
-            "id": 1,
-            "name": "Paistettu inkiväärillä",
-            "description": "Inkivääri, Kukkakaali, Parsakaali, Porkkana, Kesäkurpitsa",
+            "name": "pho",
+            "description": "sis-pho",
+            "src": "/menuImg/pho.jpg",
             "price": [
                 {
-                    "name": "Possu",
+                    "id": 1,
+                    "price": 11.9
+                }
+            ]
+        },
+        {
+            "name": "xaorung",
+            "description": "sis-xaorung",
+            "src": "/menuImg/xaorung.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
                     "price": 11.9
                 },
                 {
-                    "name": "Kana",
+                    "id": 2,
+                    "name": "chicken",
                     "price": 11.9
                 },
                 {
-                    "name": "Tofu",
+                    "id": 3,
+                    "name": "tofu",
                     "price": 11.9
                 },
                 {
-                    "name": "Nauta",
+                    "id": 4,
+                    "name": "beef",
                     "price": 13.9
                 },
                 {
-                    "name": "Jattikatkarapu",
+                    "id": 5,
+                    "name": "shrimp",
                     "price": 16.9
                 }
             ]
         },
         {
-            "id": 2,
-            "name": "Hapanimelä kastike",
-            "description": "Paprika, Sipuli, Ananas, Inkivääri, (Vehnäjauho)",
+            "name": "chuangot",
+            "description": "sis-chuangot",
+            "src": "/menuImg/chuangot.jpg",
             "price": [
                 {
-                    "name": "Possu",
+                    "id": 1,
+                    "name": "pig",
                     "price": 12.9
                 },
                 {
-                    "name": "Kana",
+                    "id": 2,
+                    "name": "chicken",
                     "price": 12.9
                 },
                 {
-                    "name": "Tofu",
+                    "id": 3,
+                    "name": "tofu",
                     "price": 12.9
                 },
                 {
-                    "name": "Nauta",
+                    "id": 4,
+                    "name": "beef",
                     "price": 14.9
                 },
                 {
-                    "name": "Jattikatkarapu",
+                    "id": 5,
+                    "name": "shrimp",
                     "price": 17.9
+                }
+            ]
+        },
+        {
+            "name": "herkkusienibambu",
+            "description": "sis-herkkusienibambu",
+            "src": "/menuImg/herkkusienibambu.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "comchien",
+            "description": "sis-comchien",
+            "src": "/menuImg/comchien.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "huutieu",
+            "description": "sis-huutieu",
+            "src": "/menuImg/huutieu.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "redcurry",
+            "description": "sis-redcurry",
+            "src": "/menuImg/redcurry.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "mixao",
+            "description": "sis-mixao",
+            "src": "/menuImg/mixao.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "xaolan",
+            "description": "sis-xaolan",
+            "src": "/menuImg/xaolan.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
+                }
+            ]
+        },
+        {
+            "name": "xaot",
+            "description": "sis-xaot",
+            "src": "/menuImg/xaot.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "name": "pig",
+                    "price": 11.9
+                },
+                {
+                    "id": 2,
+                    "name": "chicken",
+                    "price": 11.9
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 11.9
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 13.9
+                },
+                {
+                    "id": 5,
+                    "name": "shrimp",
+                    "price": 16.9
                 }
             ]
         }
@@ -109,13 +446,21 @@
     "drinks":[
         {
             "name": "Coca-Cola",
+            "src": "/menuImg/cocacola.jpg",
             "price": 3,
             "size": "0,5"
         },
         {
             "name": "Battery",
+            "src": "/menuImg/battery.jpg",
             "price": 3.9,
             "size": "0,33"
+        },
+        {
+            "name": "Fanta",
+            "src": "/menuImg/fanta.jpg",
+            "price": 3,
+            "size": "0.5"
         }
     ]
 }

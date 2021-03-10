@@ -14,22 +14,22 @@ export default function Contact() {
                             <div className="mb-3">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <label for="name" className="form-label">{t('common:name')}</label>
+                                        <label className="form-label">{t('common:name')}</label>
                                         <input type="text" className="form-control" id="name" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="Email" className="form-label">{t('common:email')}</label>
+                                        <label className="form-label">{t('common:email')}</label>
                                         <input type="email" className="form-control" id="Email" />
                                     </div>
                                 </div>
                             </div>
 
                             <div className="mb-3">
-                                <label for="subject" className="form-label">{t('common:subject')}</label>
+                                <label className="form-label">{t('common:subject')}</label>
                                 <input type="text" className="form-control" id="subject" />
                             </div>
                             <div className="mb-3">
-                                <label for="message" className="form-label">{t('common:message')}</label>
+                                <label className="form-label">{t('common:message')}</label>
                                 <textarea className="form-control" id="message" rows="3"></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary">{t('common:submit')}</button>

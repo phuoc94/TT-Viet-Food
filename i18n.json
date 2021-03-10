@@ -2,7 +2,6 @@
     "locales": ["fi", "en", "sv"],
     "defaultLocale": "fi",
     "pages": {
-        "*": ["common"],
-        "/menu": ["menu"]
+        "*": ["common"]
     }
 }

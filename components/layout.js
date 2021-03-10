@@ -38,8 +38,8 @@ export default function Layout({ children }) {
                     </ul>
                     <ul className="nav justify-content-end">
                         {router.locales.map(locale => (
-                            <li className="nav-item">
-                                <Link href={router.asPath} locale={locale} key={locale}>
+                            <li className="nav-item" key={locale}>
+                                <Link href={router.asPath} locale={locale} >
                                     <a className="nav-link">{locale}</a>
                                 </Link>
                             </li>
