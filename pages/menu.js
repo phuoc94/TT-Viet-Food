@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Layout from '../components/layout'
 import products from '../menu.json'
 import useTranslation from "next-translate/useTranslation"
@@ -11,8 +12,8 @@ const menu = () => {
                 <div className="row d-flex justify-content-center">
                     {products.Appetizer.map(dish => (
                         <div key={dish.name} className="col-xl-6 row my-3 ">
-                            <div className="col-md-6 justify-content-sm-center">
-                                <h2 className="h2-responsive">
+                            <div className="col-lg-6 justify-content-sm-center">
+                                <h2>
                                     {t(`common:${dish.name}`)}
                                 </h2>
                                 {dish.price.map(p => (
@@ -22,8 +23,8 @@ const menu = () => {
                                     {t(`common:${dish.description}`)}
                                 </p>
                             </div>
-                            <div className="col-md-6 pimage">
-                                <img src={dish.src} alt={dish.name} className="dishimage" />
+                            <div className="col-lg-6 pimage">
+                                <Image src={dish.src} alt={dish.name} layout="fill" />
                             </div>
 
                         </div>
@@ -34,9 +35,9 @@ const menu = () => {
                 <div className="row d-flex justify-content-center">
                     
                     {products.main.map(dish => (
-                        <div key={dish.name} className="col-md-6 row my-3">
-                            <div className="col-sm-6">
-                                <h2 className="h2-responsive">
+                        <div key={dish.name} className="col-xl-6 row my-3">
+                            <div className="col-lg-6">
+                                <h2>
                                     {t(`common:${dish.name}`)}
                                 </h2>
                                 {dish.price.map(p => (
@@ -46,8 +47,8 @@ const menu = () => {
                                     {t(`common:${dish.description}`)}
                                 </p>
                             </div>
-                            <div className="col-sm-6 pimage">
-                                <img src={dish.src} alt={dish.name} className="dishimage" />
+                            <div className="col-lg-6 pimage">
+                                <Image src={dish.src} alt={dish.name} layout="fill" />
                             </div>
 
                         </div>
@@ -59,11 +60,10 @@ const menu = () => {
                 <div className="row d-flex justify-content-center">
                     {products.drinks.map(drink => (
                         <div key={drink.name} className="col-md-4 row my-3">
-                                <img src={drink.src} alt={drink.name} className="drinkimage" />
+                                <Image src={drink.src} alt={drink.name} layout="intrinsic" width={416} height={588} className="mx-4"/>
                                 <h2 className="h2-responsive d-flex justify-content-center my-2">
                                     {drink.name}: {drink.price.toFixed(2)}€
                                 </h2>
-
                         </div>
                     ))}
                 </div>

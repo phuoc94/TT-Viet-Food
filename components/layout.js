@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image'
 import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation"
 
@@ -19,7 +20,7 @@ export default function Layout({ children }) {
 
             <header className="container">
                 <nav className="navbar">
-                    <img src="/logo.jpg" alt="logo" width="76" height="70" />
+                    <Image src="/logo.jpg" alt="logo" width="76" height="70"/>
                     <ul className="nav">
                         <li className="nav-item">
                             <Link href="/">
