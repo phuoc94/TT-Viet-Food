@@ -69,7 +69,9 @@
     "pcs": "kpl.",
     "appetizer":"Alkuruoat",
     "mains": "Pääruoat",
-    "drinks": "Juomat"
+    "drinks": "Juomat",
+    "mailsend": "Kiitos yhteydenotostasi! otamme sinuun pian yhteyttä",
+    "mailerror": "Viestin lähetyksessä tapahtui virhe, voit ottaa meihin yhteyttä myös puhelimitse"
 
 
 

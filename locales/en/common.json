@@ -69,5 +69,7 @@
     "pcs": "pcs.",
     "appetizer":"Appetizers",
     "mains": "Mains",
-    "drinks": "Drinks"
+    "drinks": "Drinks",
+    "mailsend": "Thank you for getting in touch! we will get back in touch with you soon",
+    "mailerror": "There was an error sending the message, you can also contact us by phone"
 }

@@ -1,36 +1,58 @@
 import Link from 'next/link';
 import useTranslation from "next-translate/useTranslation"
+import emailjs from 'emailjs-com';
+import { toast, ToastContainer } from 'react-nextjs-toast'
 
 export default function Contact() {
     const { t } = useTranslation();
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, e.target, process.env.NEXT_PUBLIC_USER_ID)
+          .then((result) => {
+            toast.notify(t('common:mailsend'), {
+                duration: 10,
+                type: "success",
+              })
+          }, (error) => {
+            toast.notify(t('common:mailerror'), {
+                duration: 10,
+                type: "error"
+              })
+          });
+          e.target.reset()
+      }
+
     return (
         <>
+            <ToastContainer />
             <div className="container mb-4">
                 <div className="row">
                     <h1 className="h1-responsive font-weight-bold text-center my-5 red ">{t('common:contactus')}</h1>
 
                     <div className="col-md-9">
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <div className="mb-3">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <label className="form-label">{t('common:name')}</label>
-                                        <input type="text" className="form-control" id="name" />
+                                        <label htmlFor="name" className="form-label">{t('common:name')}</label>
+                                        <input type="text" className="form-control" id="name" name="name"/>
                                     </div>
                                     <div className="col-md-6">
-                                        <label className="form-label">{t('common:email')}</label>
-                                        <input type="email" className="form-control" id="Email" />
+                                        <label htmlFor="email" className="form-label">{t('common:email')}</label>
+                                        <input type="email" className="form-control" id="email" name="email"/>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="mb-3">
-                                <label className="form-label">{t('common:subject')}</label>
-                                <input type="text" className="form-control" id="subject" />
+                                <label htmlFor="subject" className="form-label">{t('common:subject')}</label>
+                                <input type="text" className="form-control" id="subject" name="subject"/>
                             </div>
                             <div className="mb-3">
-                                <label className="form-label">{t('common:message')}</label>
-                                <textarea className="form-control" id="message" rows="3"></textarea>
+                                <label htmlFor="message" className="form-label">{t('common:message')}</label>
+                                <textarea className="form-control" id="message" name="message" rows="3"></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary">{t('common:submit')}</button>
                         </form>

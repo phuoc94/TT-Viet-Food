@@ -69,5 +69,7 @@
     "pcs": "st.",
     "appetizer":"Aptitretare",
     "mains": "Huvudrätter",
-    "drinks": "Drycker"
+    "drinks": "Drycker",
+    "mailsend": "Tack för att du tog kontakt! vi kommer snart att kontakta dig igen",
+    "mailerror": "Det gick inte att skicka meddelandet. Du kan också kontakta oss per telefon"
 }
