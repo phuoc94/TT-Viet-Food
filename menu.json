@@ -21,7 +21,7 @@
         },
         {
             "name": "chagioglupieni",
-            "description": "chagioglupieni",
+            "description": "sis-chagioglupieni",
             "src": "/menuImg/chagioglupieni.jpg",
             "price": [
                 {
@@ -71,8 +71,8 @@
                 {
                     "id": 2,
                     "name": "vege",
-                    "price": 5,
-                    "piece": 6,
+                    "price": 6,
+                    "piece": 5,
                     "description":"sis-friedwontonvege"
                 }
             ]
