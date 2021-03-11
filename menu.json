@@ -59,18 +59,21 @@
             "name": "friedwonton",
             "description": "sis-friedwonton",
             "src": "/menuImg/friedwonton.jpg",
+            "extra": "Yes",
             "price": [
                 {
                     "id": 1,
                     "name": "pig",
                     "price": 6,
-                    "piece": 5
+                    "piece": 5,
+                    "description":"sis-friedwonton"
                 },
                 {
                     "id": 2,
                     "name": "vege",
                     "price": 5,
-                    "piece": 6
+                    "piece": 6,
+                    "description":"sis-friedwontonvege"
                 }
             ]
         },
@@ -81,8 +84,41 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 5
+                    "name": "chicken",
+                    "price": 5,
+                    "piece": 1
+                },
+                {
+                    "id": 2,
+                    "name": "pig",
+                    "price": 5,
+                    "piece": 1
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 5,
+                    "piece": 1
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 5,
+                    "piece": 1
+                },
+                {
+                    "id": 5,
+                    "name": "sshrimp",
+                    "price": 5,
+                    "piece": 1
+                },
+                {
+                    "id": 6,
+                    "name": "ssalmon",
+                    "price": 5,
+                    "piece": 1
                 }
+                
             ]
         },
         {

@@ -17,11 +17,16 @@ const menu = () => {
                                     {t(`common:${dish.name}`)}
                                 </h2>
                                 {dish.price.map(p => (
+                                    <div>
                                     <p className="price" key={p.id}>{p.name && t(`common:${p.name}`)} {p.name && <>:</>} {p.price.toFixed(2)}€ {p.piece && <>/</>}{p.piece}{p.piece && t(`common:pcs`)}</p>
+                                    {p.description && <p>{t(`common:${p.description}`)}</p>}
+                                    </div>
                                 ))}
-                                <p>
-                                    {t(`common:${dish.description}`)}
-                                </p>
+                                { !dish.extra &&
+                                    <p>
+                                        {t(`common:${dish.description}`)}
+                                    </p>
+                                }
                             </div>
                             <div className="col-lg-6 pimage">
                                 <Image src={dish.src} alt={dish.name} layout="fill" />
