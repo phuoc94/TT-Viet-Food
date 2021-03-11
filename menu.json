@@ -50,8 +50,8 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 5,
-                    "piece": 6
+                    "price": 6,
+                    "piece": 5
                 }
             ]
         },
@@ -63,8 +63,8 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 5,
-                    "piece": 6
+                    "price": 6,
+                    "piece": 5
                 },
                 {
                     "id": 2,
