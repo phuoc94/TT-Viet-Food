@@ -84,41 +84,9 @@
             "price": [
                 {
                     "id": 1,
-                    "name": "chicken",
-                    "price": 5,
-                    "piece": 1
-                },
-                {
-                    "id": 2,
-                    "name": "pig",
-                    "price": 5,
-                    "piece": 1
-                },
-                {
-                    "id": 3,
-                    "name": "tofu",
-                    "price": 5,
-                    "piece": 1
-                },
-                {
-                    "id": 4,
-                    "name": "beef",
-                    "price": 5,
-                    "piece": 1
-                },
-                {
-                    "id": 5,
-                    "name": "sshrimp",
-                    "price": 5,
-                    "piece": 1
-                },
-                {
-                    "id": 6,
-                    "name": "ssalmon",
                     "price": 5,
                     "piece": 1
                 }
-                
             ]
         },
         {
@@ -159,6 +127,37 @@
             "price": [
                 {
                     "id": 1,
+                    "name": "chicken",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "id": 2,
+                    "name": "pig",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "id": 3,
+                    "name": "tofu",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "id": 4,
+                    "name": "beef",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "id": 5,
+                    "name": "sshrimp",
+                    "price": 10,
+                    "piece": 4
+                },
+                {
+                    "id": 6,
+                    "name": "ssalmon",
                     "price": 10,
                     "piece": 4
                 }
