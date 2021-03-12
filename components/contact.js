@@ -61,11 +61,11 @@ export default function Contact() {
                         <ul className="list-unstyled mb-0">
                             <li>
                                 <i className="fas fa-map-marker-alt fa-2x blue-text"></i>
-                                <p>Kuninkaanväylä 33, 21280 Raisio</p>
+                                <p><Link href="https://goo.gl/maps/z1p6JKTbX2fP4nrj6"><a>Kuninkaanväylä 33, 21280 Raisio</a></Link></p>
                             </li>
                             <li>
                                 <i className="fas fa-phone fa-2x mt-4 blue-text"></i>
-                                <p>+358 41 4746 795</p>
+                                <p><Link href="tel:+358414746795"><a>+358 41 4746 795</a></Link></p>
                             </li>
                             <li>
                                 <i className="fas fa-envelope fa-2x mt-4 blue-text"></i>
