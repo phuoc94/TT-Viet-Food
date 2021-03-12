@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from 'next/image'
 import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation"
+import { Navbar, Nav } from "react-bootstrap"
 
 export default function Layout({ children }) {
     const router = useRouter();
@@ -15,38 +16,30 @@ export default function Layout({ children }) {
                 <link rel="canonical" href="https://ttvietfood.fi" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="Description" content="Tt viet food on vietnamilainen ruoka joka sijaitse raisiossa"></meta>
-                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+                <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
             </Head>
 
-            <header className="container">
-                <nav className="navbar">
-                    <Image src="/logo.jpg" alt="logo" width="76" height="70"/>
-                    <ul className="nav">
-                        <li className="nav-item">
-                            <Link href="/">
-                                <a className="nav-link">{t('common:home').toUpperCase()}</a>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/menu">
-                                <a className="nav-link">{t('common:menu').toUpperCase()}</a>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/contact">
-                                <a className="nav-link">{t('common:contact').toUpperCase()}</a>
-                            </Link></li>
-                    </ul>
-                    <ul className="nav justify-content-end">
-                        {router.locales.map(locale => (
-                            <li className="nav-item" key={locale}>
-                                <Link href={router.asPath} locale={locale} >
-                                    <a className="nav-link">{locale}</a>
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </nav>
+            <header className="container row">
+                <Navbar expand="md" className="topbar">
+                        <Navbar.Brand href="/" className="logo">
+                        <Image src="/logo.png" alt="logo" width="220" height="200" className="dimage"/>
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                            <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
+                                <Nav >
+                                    <Nav.Link href="/">{t('common:home').toUpperCase()}</Nav.Link>
+                                    <Nav.Link href="/menu/">{t('common:menu').toUpperCase()}</Nav.Link>
+                                    <Nav.Link href="/contact/">{t('common:contact').toUpperCase()}</Nav.Link>
+                                </Nav>
+                            </Navbar.Collapse>
+                            <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+                                <Nav>
+                                {router.locales.map(locale => (
+                                    <Nav.Link href={router.asPath} locale={locale}>{locale}</Nav.Link>
+                                ))}
+                                </Nav>
+                            </Navbar.Collapse>
+                </Navbar>
             </header>
             <main>{children}</main>
             <footer className="mt-5">
