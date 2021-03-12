@@ -17,14 +17,7 @@
     height: 40vh;
     background-color:rgba(244,250,249, 0.4);
     width: 100%;
-    .headerText{
-        color: red;
-        font-weight: 700;
-        font-size: calc(10px + 3.5vw);
-        width: 50%;
-        text-align: center;
-        margin-top: 5%;
-    }
+
 }
 
 .h1-responsive{
@@ -59,18 +52,36 @@
     font-weight: bold;
     margin-bottom: 0;
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .pimage {
         height: calc(100vw - 50vw);
     }
+    .logo{
+        width: 76px;
+        height: 70px;
+    }
+    .headerText{
+        color: red;
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+        margin-top: 5%;
+    }
   }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 767px) {
     .topbar {
         max-height: 100px;
     }
     .logo {
         margin-top: 100px;
+    }
+    .headerText{
+        color: red;
+        font-weight: 700;
+        font-size: calc(10px + 3.5vw);
+        width: 50%;
+        text-align: center;
+        margin-top: 5%;
     }
 }

@@ -21,24 +21,28 @@ export default function Layout({ children }) {
 
             <header className="container row">
                 <Navbar expand="md" className="topbar">
-                        <Navbar.Brand href="/" className="logo">
-                        <Image src="/logo.png" alt="logo" width="220" height="200" className="dimage"/>
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                            <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
-                                <Nav >
-                                    <Nav.Link href="/">{t('common:home').toUpperCase()}</Nav.Link>
-                                    <Nav.Link href="/menu/">{t('common:menu').toUpperCase()}</Nav.Link>
-                                    <Nav.Link href="/contact/">{t('common:contact').toUpperCase()}</Nav.Link>
-                                </Nav>
-                            </Navbar.Collapse>
-                            <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-                                <Nav>
-                                {router.locales.map(locale => (
-                                    <Nav.Link href={router.asPath} locale={locale}>{locale}</Nav.Link>
-                                ))}
-                                </Nav>
-                            </Navbar.Collapse>
+                    <Navbar.Brand href="/" className="logo">
+                        <Image src="/logo.png" alt="logo" width="220" height="200" className="dimage" />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
+                        <Nav >
+                            <Nav.Link href="/">{t('common:home').toUpperCase()}</Nav.Link>
+                            <Nav.Link href="/menu/">{t('common:menu').toUpperCase()}</Nav.Link>
+                            <Nav.Link href="/contact/">{t('common:contact').toUpperCase()}</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                    <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+                        <Nav>
+                            {router.locales.map(locale => (
+                                <li className="nav-item" key={locale}>
+                                    <Link href={router.asPath} locale={locale} >
+                                        <a className="nav-link">{locale}</a>
+                                    </Link>
+                                </li>
+                            ))}
+                        </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
             </header>
             <main>{children}</main>
