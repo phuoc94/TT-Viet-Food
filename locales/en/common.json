@@ -74,5 +74,6 @@
     "mains": "Mains",
     "drinks": "Drinks",
     "mailsend": "Thank you for getting in touch! we will get back in touch with you soon",
-    "mailerror": "There was an error sending the message, you can also contact us by phone"
+    "mailerror": "There was an error sending the message, you can also contact us by phone",
+    "contactusmessage": "NOTE! If you want to order food you can call directly our phone number. You will not be able to order food through this form."
 }

@@ -30,7 +30,7 @@ export default function Contact() {
             <div className="container mb-4">
                 <div className="row">
                     <h1 className="h1-responsive font-weight-bold text-center my-5 red ">{t('common:contactus')}</h1>
-
+                    <p><b>{t('common:contactusmessage')}</b></p>
                     <div className="col-md-9">
                         <form onSubmit={sendEmail}>
                             <div className="mb-3">
