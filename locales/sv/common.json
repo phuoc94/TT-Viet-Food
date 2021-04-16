@@ -75,5 +75,9 @@
     "drinks": "Drycker",
     "mailsend": "Tack för att du tog kontakt! vi kommer snart att kontakta dig igen",
     "mailerror": "Det gick inte att skicka meddelandet. Du kan också kontakta oss per telefon",
-    "contactusmessage": "NOTERA! Om du vill beställa mat kan du ringa vårt telefonnummer direkt. Du kommer inte att kunna beställa mat via detta formulär."
+    "contactusmessage": "NOTERA! Om du vill beställa mat kan du ringa vårt telefonnummer direkt. Du kommer inte att kunna beställa mat via detta formulär.",
+    "chagiokasvis":"Små grönsaksfjäderrullar",
+    "sis-chagiokasvis":"Vetemjöl, kål, morot, vermicelli, lök, svamp",
+    "friedchicken":"Friterad kyckling",
+    "sis-friedchicken":"vetemjöl, kyckling, ägg"
 }

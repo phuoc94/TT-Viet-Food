@@ -177,6 +177,30 @@
                     "price": 12
                 }
             ]
+        },
+        {
+            "name": "chagiokasvis",
+            "description": "sis-chagiokasvis",
+            "src": "/menuImg/chagiokasvis.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 6,
+                    "piece": 10
+                }
+            ]
+        },
+        {
+            "name": "friedchicken",
+            "description": "sis-friedchicken",
+            "src": "/menuImg/friedchicken.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "piece": 10,
+                    "price": 11.9
+                }
+            ]
         }
     ],
 

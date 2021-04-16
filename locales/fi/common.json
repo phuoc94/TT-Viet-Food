@@ -75,7 +75,11 @@
     "drinks": "Juomat",
     "mailsend": "Kiitos yhteydenotostasi! otamme sinuun pian yhteyttä",
     "mailerror": "Viestin lähetyksessä tapahtui virhe, voit ottaa meihin yhteyttä myös puhelimitse",
-    "contactusmessage": "HUOM! Jos haluat tilata ruuat voitte soittaa suoraan meidän puhelin numeroon. Tämän lomakkeen kautta ruuan tilaaminen ei onnistu."
+    "contactusmessage": "HUOM! Jos haluat tilata ruuat voitte soittaa suoraan meidän puhelin numeroon. Tämän lomakkeen kautta ruuan tilaaminen ei onnistu.",
+    "chagiokasvis":"Pieni kasviskevätkääryleet",
+    "sis-chagiokasvis":"Vehnäjauho, kaali, porkkana, vermicelli, sipuli, sienet",
+    "friedchicken":"Friteerattu kana",
+    "sis-friedchicken":"vehnäjauho, kana, kananmuna"
 
 
 
