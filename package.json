@@ -9,7 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3",
+    "bootstrap": "^5.0.0",
     "emailjs-com": "^2.6.4",
     "next": "10.2.0",
     "next-translate": "^1.0.6",
