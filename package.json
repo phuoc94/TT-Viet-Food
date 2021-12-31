@@ -19,6 +19,6 @@
     "react-nextjs-toast": "^1.2.5"
   },
   "devDependencies": {
-    "sass": "^1.43.4"
+    "sass": "^1.45.2"
   }
 }
