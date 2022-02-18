@@ -143,11 +143,11 @@ export default function Contact() {
         {t("common:openingHours")}
       </h1>
       <div className="opening-hours">
-        <p>{t("common:monday")}: 10:00-16:00</p>
-        <p>{t("common:tuesday")}: 10:00-16:00</p>
-        <p>{t("common:wednesday")}: 10:00-16:00</p>
-        <p>{t("common:thursday")}: 10:00-16:00</p>
-        <p>{t("common:friday")}: 10:00-16:00</p>
+        <p>{t("common:monday")}: 10:00-15:00</p>
+        <p>{t("common:tuesday")}: 10:00-15:00</p>
+        <p>{t("common:wednesday")}: 10:00-15:00</p>
+        <p>{t("common:thursday")}: 10:00-15:00</p>
+        <p>{t("common:friday")}: 10:00-15:00</p>
         <p>
           {t("common:saturday")}: {t("common:closed")}
         </p>
