@@ -1,9 +1,12 @@
-import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import useTranslation from "next-translate/useTranslation";
-import { Navbar, Nav } from "react-bootstrap";
+import useTranslation from 'next-translate/useTranslation';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import {
+  Nav,
+  Navbar,
+} from 'react-bootstrap';
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -27,7 +30,7 @@ export default function Layout({ children }) {
         />
       </Head>
 
-      <header className="container row">
+      <header className="container">
         <Navbar expand="md" className="topbar">
           <Navbar.Brand href="/" className="logo">
             <Image
