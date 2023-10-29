@@ -1,7 +1,8 @@
-import Image from 'next/image'
-import Layout from '../components/layout'
-import products from '../menu.json'
-import useTranslation from "next-translate/useTranslation"
+import useTranslation from 'next-translate/useTranslation';
+import Image from 'next/image';
+
+import Layout from '../components/layout';
+import products from '../menu.json';
 
 const menu = () => {
     const { t } = useTranslation();
@@ -18,7 +19,7 @@ const menu = () => {
                                 </h2>
                                 {dish.price.map(p => (
                                     <div>
-                                    <p className="price" key={p.id}>{p.name && t(`common:${p.name}`)} {p.name && <>:</>} {p.price.toFixed(2)}€ {p.piece && <>/</>}{p.piece}{p.piece && t(`common:pcs`)}</p>
+                                    <p className="price" key={p.id}>{p.name && t(`common:${p.name}`)} {p.name && p.price && <>:</>} {p.price && `${p.price.toFixed(2)} €`} {p.piece && <>/</>}{p.piece}{p.piece && t(`common:pcs`)}</p>
                                     {p.description && <p>{t(`common:${p.description}`)}</p>}
                                     </div>
                                 ))}

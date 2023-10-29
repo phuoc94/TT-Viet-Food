@@ -1,7 +1,10 @@
-import Link from "next/link";
-import useTranslation from "next-translate/useTranslation";
-import emailjs from "emailjs-com";
-import { toast, ToastContainer } from "react-nextjs-toast";
+import emailjs from 'emailjs-com';
+import useTranslation from 'next-translate/useTranslation';
+import Link from 'next/link';
+import {
+  toast,
+  ToastContainer,
+} from 'react-nextjs-toast';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -143,11 +146,11 @@ export default function Contact() {
         {t("common:openingHours")}
       </h1>
       <div className="opening-hours">
-        <p>{t("common:monday")}: 10:00-15:00</p>
-        <p>{t("common:tuesday")}: 10:00-15:00</p>
-        <p>{t("common:wednesday")}: 10:00-15:00</p>
-        <p>{t("common:thursday")}: 10:00-15:00</p>
-        <p>{t("common:friday")}: 10:00-15:00</p>
+        <p>{t("common:monday")}: 10:00-16:00</p>
+        <p>{t("common:tuesday")}: 10:00-16:00</p>
+        <p>{t("common:wednesday")}: 10:00-16:00</p>
+        <p>{t("common:thursday")}: 10:00-16:00</p>
+        <p>{t("common:friday")}: 10:00-16:00</p>
         <p>
           {t("common:saturday")}: {t("common:closed")}
         </p>
