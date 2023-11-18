@@ -77,7 +77,7 @@
             "price": [
                 {
                     "id": 1,
-                    "name": "chicken-pork-vege"
+                    "name": "chicken-vege"
                 },
                 {
                     "id": 1,
@@ -477,7 +477,7 @@
             "size": "0,33"
         },
         {
-            "name": "Cafe sữa",
+            "name": "Maito jääkahvi",
             "src": "/menuImg/cafesua.jpg",
             "price": 6
         }
