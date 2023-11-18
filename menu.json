@@ -7,7 +7,7 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 6,
+                    "price": 7.5,
                     "piece": 12
                 }
             ]
@@ -19,7 +19,7 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 6,
+                    "price": 7.5,
                     "piece": 5
                 }
             ]
@@ -31,7 +31,7 @@
             "price": [
                 {
                     "id": 2,
-                    "price": 13,
+                    "price": 15,
                     "piece": 10
                 }
             ]
@@ -45,14 +45,14 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 6,
+                    "price": 7.5,
                     "piece": 5,
                     "description": "sis-friedwonton"
                 },
                 {
                     "id": 2,
                     "name": "vege",
-                    "price": 6,
+                    "price": 7.5,
                     "piece": 5,
                     "description": "sis-friedwontonvege"
                 }
@@ -65,7 +65,7 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 12,
+                    "price": 15,
                     "piece": 10
                 }
             ]
@@ -81,13 +81,8 @@
                 },
                 {
                     "id": 1,
-                    "piece": 1,
-                    "price": 2
-                },
-                {
-                    "id": 2,
-                    "price": 10,
-                    "piece": 6
+                    "piece": 2,
+                    "price": 5
                 }
             ]
         },
@@ -98,8 +93,20 @@
             "price": [
                 {
                     "id": 1,
-                    "price": 6,
+                    "price": 7.5,
                     "piece": 10
+                }
+            ]
+        },
+        {
+            "name": "smallchagiopork",
+            "description": "sis-smallchagiopork",
+            "src": "/menuImg/smallchagiopork.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 6.5,
+                    "piece": 5
                 }
             ]
         },
@@ -111,7 +118,7 @@
                 {
                     "id": 1,
                     "piece": 10,
-                    "price": 12.9
+                    "price": 15.5
                 }
             ]
         }
@@ -125,17 +132,39 @@
                 {
                     "id": 1,
                     "name": "beef",
-                    "price": 13
+                    "price": 16.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 13
+                    "price": 16.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 13
+                    "price": 16.5
+                }
+            ]
+        },
+        {
+            "name": "bunbohue",
+            "description": "sis-bunbohue",
+            "src": "/menuImg/bunbohue.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 16.5
+                }
+            ]
+        },
+        {
+            "name": "nemnuong",
+            "description": "sis-nemnuong",
+            "src": "/menuImg/nemnuong.jpg",
+            "price": [
+                {
+                    "id": 1,
+                    "price": 16.5
                 }
             ]
         },
@@ -147,27 +176,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -179,27 +208,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -211,27 +240,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -243,27 +272,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -275,27 +304,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -307,27 +336,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -339,27 +368,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -371,27 +400,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         },
@@ -403,27 +432,27 @@
                 {
                     "id": 1,
                     "name": "pig",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 2,
                     "name": "chicken",
-                    "price": 12.9
+                    "price": 15.5
                 },
                 {
                     "id": 3,
                     "name": "tofu",
-                    "price": 12.9
+                    "price": 14.5
                 },
                 {
                     "id": 4,
                     "name": "beef",
-                    "price": 13.9
+                    "price": 16.5
                 },
                 {
                     "id": 5,
                     "name": "shrimp",
-                    "price": 15.9
+                    "price": 19.5
                 }
             ]
         }
@@ -432,20 +461,25 @@
         {
             "name": "Coca-Cola",
             "src": "/menuImg/cocacola.jpg",
-            "price": 3.5,
+            "price": 4,
             "size": "0,5"
-        },
-        {
-            "name": "Battery",
-            "src": "/menuImg/battery.jpg",
-            "price": 4.5,
-            "size": "0,33"
         },
         {
             "name": "Fanta",
             "src": "/menuImg/fanta.jpg",
-            "price": 3.5,
+            "price": 4,
             "size": "0.5"
+        },
+        {
+            "name": "Battery",
+            "src": "/menuImg/battery.jpg",
+            "price": 5,
+            "size": "0,33"
+        },
+        {
+            "name": "Cafe sữa",
+            "src": "/menuImg/cafesua.jpg",
+            "price": 6
         }
     ]
 }

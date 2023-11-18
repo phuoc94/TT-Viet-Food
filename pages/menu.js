@@ -65,8 +65,8 @@ const menu = () => {
                 <h1 className="h1-responsive font-weight-bold text-center my-5 red ">{t(`common:drinks`)}</h1>
                 <div className="row d-flex justify-content-center">
                     {products.drinks.map(drink => (
-                        <div key={drink.name} className="col-lg-3 row my-3 mx-1">
-                                <Image src={drink.src} alt={drink.name} layout="intrinsic" width={416} height={700}/>
+                        <div key={drink.name} className="col-lg-3 row my-3">
+                                <Image className="mx-2" src={drink.src} alt={drink.name} layout="intrinsic" width={290} height={500}/>
                                 <h2 className="h2-responsive d-flex justify-content-center my-2">
                                     {drink.name}: {drink.price.toFixed(2)}€
                                 </h2>
