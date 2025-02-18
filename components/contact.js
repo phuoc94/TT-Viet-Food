@@ -6,6 +6,8 @@ import {
   ToastContainer,
 } from 'react-nextjs-toast';
 
+import contactData from '../data/contactData.json';
+
 export default function Contact() {
   const { t } = useTranslation();
 
@@ -36,12 +38,15 @@ export default function Contact() {
     e.target.reset();
   }
 
+  const displayHours = (hours) =>
+    hours === "closed" ? t("common:closed") : hours;
+
   return (
     <>
       <ToastContainer />
       <div className="container mb-4">
         <div className="row">
-          <h1 className="h1-responsive font-weight-bold text-center my-5 red ">
+          <h1 className="h1-responsive font-weight-bold text-center my-5 red">
             {t("common:contactus")}
           </h1>
           <p>
@@ -108,24 +113,24 @@ export default function Contact() {
               <li>
                 <i className="fas fa-map-marker-alt fa-2x blue-text"></i>
                 <p>
-                  <Link href="https://goo.gl/maps/z1p6JKTbX2fP4nrj6">
-                    <a>Kuninkaanväylä 33, 21280 Raisio</a>
+                  <Link href={contactData.contactInfo.address.url}>
+                    <a>{contactData.contactInfo.address.text}</a>
                   </Link>
                 </p>
               </li>
               <li>
                 <i className="fas fa-phone fa-2x mt-4 blue-text"></i>
                 <p>
-                  <Link href="tel:+358414746795">
-                    <a>+358 41 4746 795</a>
+                  <Link href={contactData.contactInfo.phone.url}>
+                    <a>{contactData.contactInfo.phone.text}</a>
                   </Link>
                 </p>
               </li>
               <li>
                 <i className="fas fa-envelope fa-2x mt-4 blue-text"></i>
                 <p className="mb-0">
-                  <Link href="mailto:ttvietfood@gmail.com">
-                    <a>ttvietfood@gmail.com</a>
+                  <Link href={contactData.contactInfo.email.url}>
+                    <a>{contactData.contactInfo.email.text}</a>
                   </Link>
                 </p>
               </li>
@@ -137,26 +142,22 @@ export default function Contact() {
       <iframe
         title="google map"
         className="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.723458664283!2d22.227699516296468!3d60.49929188208342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c75fd42c038b5%3A0xc1a51cf81369b64f!2sKuninkaanv%C3%A4yl%C3%A4%2033%2C%2021280%20Raisio!5e0!3m2!1sen!2sfi!4v1615209123722!5m2!1sen!2sfi"
+        src={contactData.contactInfo.googleMapEmbedUrl}
         allowFullScreen
         loading="lazy"
       />
 
-      <h1 className="h1-responsive font-weight-bold text-center my-5 red ">
+      <h1 className="h1-responsive font-weight-bold text-center my-5 red">
         {t("common:openingHours")}
       </h1>
       <div className="opening-hours">
-        <p>{t("common:monday")}: 10:00-14:00</p>
-        <p>{t("common:tuesday")}: 10:00-14:00</p>
-        <p>{t("common:wednesday")}: 10:00-14:00</p>
-        <p>{t("common:thursday")}: 10:00-14:00</p>
-        <p>{t("common:friday")}: 10:00-14:00</p>
-        <p>
-          {t("common:saturday")}: {t("common:closed")}
-        </p>
-        <p>
-          {t("common:sunday")}: {t("common:closed")}
-        </p>
+        <p>{t("common:monday")}: {displayHours(contactData.openingHours.monday)}</p>
+        <p>{t("common:tuesday")}: {displayHours(contactData.openingHours.tuesday)}</p>
+        <p>{t("common:wednesday")}: {displayHours(contactData.openingHours.wednesday)}</p>
+        <p>{t("common:thursday")}: {displayHours(contactData.openingHours.thursday)}</p>
+        <p>{t("common:friday")}: {displayHours(contactData.openingHours.friday)}</p>
+        <p>{t("common:saturday")}: {displayHours(contactData.openingHours.saturday)}</p>
+        <p>{t("common:sunday")}: {displayHours(contactData.openingHours.sunday)}</p>
       </div>
     </>
   );

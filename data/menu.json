@@ -1,18 +1,6 @@
 {
     "Appetizer": [
         {
-            "name": "chagioglupieni",
-            "description": "sis-chagioglupieni",
-            "src": "/menuImg/chagioglupieni.jpg",
-            "price": [
-                {
-                    "id": 1,
-                    "price": 7.5,
-                    "piece": 12
-                }
-            ]
-        },
-        {
             "name": "tomchien",
             "description": "sis-tomchien",
             "src": "/menuImg/tomchien.jpg",
@@ -21,18 +9,6 @@
                     "id": 1,
                     "price": 7.5,
                     "piece": 5
-                }
-            ]
-        },
-        {
-            "name": "wonton",
-            "description": "sis-wonton",
-            "src": "/menuImg/wonton.jpg",
-            "price": [
-                {
-                    "id": 2,
-                    "price": 15,
-                    "piece": 10
                 }
             ]
         },
@@ -150,17 +126,6 @@
             "name": "bunbohue",
             "description": "sis-bunbohue",
             "src": "/menuImg/bunbohue.jpg",
-            "price": [
-                {
-                    "id": 1,
-                    "price": 16.5
-                }
-            ]
-        },
-        {
-            "name": "nemnuong",
-            "description": "sis-nemnuong",
-            "src": "/menuImg/nemnuong.jpg",
             "price": [
                 {
                     "id": 1,

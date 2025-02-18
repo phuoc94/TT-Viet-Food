@@ -2,7 +2,7 @@ import useTranslation from 'next-translate/useTranslation';
 import Image from 'next/image';
 
 import Layout from '../components/layout';
-import products from '../menu.json';
+import products from '../data/menu.json';
 
 const menu = () => {
     const { t } = useTranslation();
